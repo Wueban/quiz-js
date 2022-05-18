@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+</head>
+<body>
+    <div class="wrap">
+        <h1>view high score</h1>
+        <ol id="highscore"></ol>
+
+    </div>
+    <aside class="time">timer <span id="time">0</span></aside>
+    <header>
+        <h1>Coding Quiz Challenge</h1>
+        <p>try to see how much you know about JavaScript</p>
+        <button id="start">start</button>
+    </header>
+    <section id="questions" class="hide">
+        <h2 id="questionheader"></h2>
+        <div id="choices" class="choices"></div>
+    </section>
+
+        <article id="screen" class="hide">
+            <h2>Done!!</h2>
+            <p>your final score is <span id="final-score"></span></p>
+            <p>enter initials : <input type="text" id="initials">
+            <button id="submit"> submit </button>
+            </p>
+        
+        </article>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
